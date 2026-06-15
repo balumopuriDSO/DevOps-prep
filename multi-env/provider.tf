@@ -3,17 +3,20 @@ terraform {
   required_providers {
     # Add your required providers here
     # Example:
-    # aws = {
-    #   source  = "hashicorp/aws"
-    #   version = "~> 5.0"
-    # }
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
   }
+
+  # }
+  # }
 }
 
 # Configure the provider
-# provider "aws" {
-#   region = var.aws_region
-# }
+provider "aws" {
+  region = "us-east-1"
+}
 
 # Add your resources here
 # Example resource:

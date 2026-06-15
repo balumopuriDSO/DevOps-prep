@@ -1,0 +1,17 @@
+# Terraform local state and crash logs
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform directories
+.terraform/
+
+# Local IDE and system files
+*.log
+*.swp
+*~
